@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アップロードページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>写真をアップロードして、ランキングに参加しよう</h1>
+
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="photo" accept="image/*" required />
+        <button type="submit">アップロード</button>
+    </form>
+
+    <div>
+        <a href="index.html"><button>投票ページへ</button></a>
+        <a href="rankings.html"><button>ランキングページへ</button></a>
+    </div>
+
+    <script src="upload.js"></script>
+</body>
+</html>

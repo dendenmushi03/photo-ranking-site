@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランダムに表示された写真に投票してください</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ランダムに表示された写真に投票してください</h1>
+    <form id="voteForm">
+        <div id="photos-container">
+            <div class="photo-item">
+                <h2>写真1</h2>
+                <img src="" alt="写真1" id="photo1">
+                <label>
+                    <input type="radio" name="photo" value="1"> 写真1に投票
+                </label>
+            </div>
+            <div class="photo-item">
+                <h2>写真2</h2>
+                <img src="" alt="写真2" id="photo2">
+                <label>
+                    <input type="radio" name="photo" value="2"> 写真2に投票
+                </label>
+            </div>
+            <div class="photo-item">
+                <h2>写真3</h2>
+                <img src="" alt="写真3" id="photo3">
+                <label>
+                    <input type="radio" name="photo" value="3"> 写真3に投票
+                </label>
+            </div>
+        </div>
+        <button type="submit">投票する</button>
+    </form>
+    <br>
+    <a href="upload.html">写真アップロードページへ</a> | <a href="rankings.html">ランキングページへ</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
